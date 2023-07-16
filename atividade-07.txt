@@ -1,0 +1,18 @@
+const numero2 = 2;
+const numero3 = 3;
+const numero5 = 5;
+
+//ESSA É A TABUADA DO 2
+for (let x = 0; x <= 10; x++) {
+    console.log(numero2,' x ', x, ' = ', numero2*x);
+}
+
+//ESSA É A TABUADA DO 3
+for (let x = 0; x <= 10; x++) {
+    console.log(numero3,' x ', x, ' = ', numero3*x);
+}
+
+//ESSA É A TABUADA DO 5
+for (let x = 0; x <= 10; x++) {
+    console.log(numero5,' x ', x, ' = ', numero5*x);
+}
