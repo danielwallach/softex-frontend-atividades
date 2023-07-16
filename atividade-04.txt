@@ -1,0 +1,25 @@
+ARMAZENANDO OS DADOS DE ENTRADA DO USUÁRIO:
+
+leia nome
+leia endereco
+leia cidade
+leia cpf
+leia rg
+leia idade
+leia nomeDoPai
+leia nomeDaMae
+leia peso
+leia rendaBruta
+
+EXIBINDO OS DADOS NA TELA:
+
+imprima nome
+imprima endereco
+imprima cidade
+imprima cpf
+imprima rg
+imprima idade
+imprima nomeDoPai
+imprima nomeDaMae
+imprima peso
+imprima rendaBruta
