@@ -1,0 +1,14 @@
+São tipos de dados que aparecem normalmente em formulários de cadastro, onde temos vários tipos de dados.
+
+nome = "José Almeida da Silva";
+cpf = "12345678900";
+rg = 9517530;
+altura = 1.78;
+endereco = "Endereço: Rua A, 380 – Centro – Recife/PE"
+
+O nome, é do tipo string.
+O cpf foi atribuido como string, porém poderia ser do tipo inteiro também.
+O rg, é do tipo inteiro.
+A altura é do tipo real.
+O endereço é do tipo string.
+Tanto o cpf como o rg, podem ser declarados como constantes já que são dados únicos que não se modificam.
