@@ -1,0 +1,15 @@
+Levando em consideração os aprendizados sobre as estruturas condicionais, elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual é o meio de transporte que o usuário está considerando. O usuário deverá escolher uma das seguintes opções:
+
+- trator; 
+- moto; 
+- bicicleta. 
+
+
+É terrestre? Sim.
+Tem menos de 4 rodas? Sim
+Precisa de combustível? Sim
+Então, o transporte escolhido foi a MOTO.
+Precisa pedalar? Sim
+Então, o transporte escolhido foi a BICICLETA.
+É usado para o trabalho na construção civil? Sim.
+Então, o transporte escolhido foi o TRATOR.
