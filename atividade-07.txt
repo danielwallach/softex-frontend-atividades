@@ -1,20 +1,27 @@
-Abaixo escrevi em código real, na linguagem javascript
+//Importando o módulo require para pegar a entrada do usuário
+const input = require('readline-sync');
 
 const numero2 = 2;
 const numero3 = 3;
 const numero5 = 5;
 
-//ESSA É A TABUADA DO 2
-for (let x = 0; x <= 10; x++) {
-    console.log(numero2,' x ', x, ' = ', numero2*x);
+let tabuada = Number(input.question('Que tabuada você quer resolver, 2, 3 ou 5?'));
+    
+
+if (tabuada === 2) {
+    //ESSA É A TABUADA DO 2
+        for (let x = 0; x <= 10; x++) {
+        console.log(numero2,' x ', x, ' = ', numero2*x);
+        }
+    } else if (tabuada === 3) { 
+    //ESSA É A TABUADA DO 3
+        for (let x = 0; x <= 10; x++) {
+        console.log(numero3,' x ', x, ' = ', numero3*x);
+        }
+    } else if (tabuada === 5) {
+    //ESSA É A TABUADA DO 5
+        for (let x = 0; x <= 10; x++) {
+        console.log(numero5,' x ', x, ' = ', numero5*x);
+    }
 }
 
-//ESSA É A TABUADA DO 3
-for (let x = 0; x <= 10; x++) {
-    console.log(numero3,' x ', x, ' = ', numero3*x);
-}
-
-//ESSA É A TABUADA DO 5
-for (let x = 0; x <= 10; x++) {
-    console.log(numero5,' x ', x, ' = ', numero5*x);
-}
