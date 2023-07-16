@@ -1,3 +1,5 @@
+Abaixo escrevi em código real, na linguagem javascript
+
 const numero2 = 2;
 const numero3 = 3;
 const numero5 = 5;
