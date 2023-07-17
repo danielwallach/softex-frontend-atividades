@@ -1,1 +1,2 @@
 O aluno que de Portugês da coluna 3, linha 4, trocou com o aluno de matemática da coluna 5 linha 5.
+O professor havia organizado a sala de forma que uma coluna tinha 4 alunos que gostavam de matampatica e 2 que gostavam de portugês e na próxima invertia em quatro de português e dois de matamática.
