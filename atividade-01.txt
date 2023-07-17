@@ -8,17 +8,18 @@ PLA acertou mais que ARI em Matemática,
 então  
 
 
-MATEMÁTICA
-1º ari soc pla
-2º ari soc pla
-3º Nari soc
+Química: 
+1º : Socrates
+2º : Aristóteles 
+3º : Platão
 
-FÍSICA
-1º ari pla
-2º soc pla ari 
-3º soc ari
+Física: 
+1º : Aristoteles
+2º : Platão
+3º : Sócrates 
 
-QUÍMICA
-1º soc
-2º ari soc
-3º ari soc
+Matemática: 
+1º : Platão 
+2º : Socrates
+3º : Aristóteles
+
