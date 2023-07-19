@@ -1,0 +1,11 @@
+let nome =  "Daniel";
+let quantidadeFaltas = 3;
+let nota1 = 5;
+let nota2 = 10;
+let media = (nota1+nota2)/2;
+
+if (media < 7 || quantidadeFaltas > 3) {
+    console.log(`Olá ${nome}, você tirou ${nota1} e ${nota2}. Sua média é ${media}. Você teve ${quantidadeFaltas} faltas e está REPROVADO!`)
+} else {
+    console.log(`Olá ${nome}, você tirou ${nota1} e ${nota2}. Sua média é ${media}. Você teve ${quantidadeFaltas} faltas e está APROVADO!`)
+}
