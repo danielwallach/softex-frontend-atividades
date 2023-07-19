@@ -1,0 +1,7 @@
+let nome =  "Daniel";
+let idade = 35;
+let altura = 1.70;
+let maior_de_idade = true;
+
+console.log(`Oi, meu nome é ${nome}, tenho ${idade} anos e ${altura} de altura.`)
+console.log(`Sou maior de idade? ${maior_de_idade}`);
