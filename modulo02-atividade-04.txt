@@ -1,0 +1,25 @@
+let quantidadeRodas = 4;
+let peso = 2000;
+let capacidadePessoas = 5;
+
+if (quantidadeRodas === 2 || quantidadeRodas === 3) {
+    
+    console.log(`Esse veículo necessita de uma habilitação de categoria A, pois possui ${quantidadeRodas} rodas.`);
+
+} else if (quantidadeRodas === 4 && capacidadePessoas <= 8 && peso <= 3500) {
+    
+    console.log(`Esse veículo necessita de uma habilitação de categoria B, pois possui ${quantidadeRodas} rodas, comporta até ${capacidadePessoas} pessoas e pesa ${peso}kg.`);
+
+} else if (quantidadeRodas >= 4 && peso >= 3500 && peso <= 6000) {
+    
+    console.log(`Esse veículo necessita de uma habilitação de categoria C, pois possui ${quantidadeRodas} rodas e pesa ${peso}kg.`);
+    
+} else if (quantidadeRodas >= 4 && capacidadePessoas > 8) {
+    
+    console.log(`Esse veículo necessita de uma habilitação de categoria D, pois possui ${quantidadeRodas} rodas e comporta até ${capacidadePessoas} pessoas.`);
+
+} else if (quantidadeRodas >= 4 && peso > 6000) {
+
+    console.log(`Esse veículo necessita de uma habilitação de categoria E, pois possui ${quantidadeRodas} rodas e pesa ${peso}kg.`);
+
+}
