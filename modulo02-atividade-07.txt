@@ -1,0 +1,60 @@
+const input = require('readline-sync');
+
+function soma (num1, num2) {
+    let resultado = num1 + num2;
+    return resultado;
+}
+
+function subtracao (num1, num2) {
+    let resultado = num1 - num2;
+    return resultado;
+}
+
+function multiplicacao (num1, num2) {
+    let resultado = num1 * num2;
+    return resultado;
+}
+
+function divisao (num1, num2) {
+    let resultado = num1 / num2;
+    return resultado;
+}
+
+
+
+let operacao = Number(input.question("Escolha uma opcao \n 1: SOMA \n 2: SUBTRACAO \n 3: MULTIPLICACAO \n 4: DIVISAO \n 0: SAIR \n"));
+
+
+
+    
+    if (operacao === 1) {
+        console.log("Operação escolhida: SOMAR")
+        let n1 = Number(input.question('Digite o primeiro numero: '));
+        let n2 = Number(input.question('Digite o segundo numero: '));
+        console.log(`A soma de ${n1} + ${n2} é ${soma(n1,n2)}`);
+        
+    } else if (operacao === 2) {
+        console.log("Operação escolhida: SUBTRAIR")
+        let n1 = Number(input.question('Digite o primeiro numero: '));
+        let n2 = Number(input.question('Digite o segundo numero: '));
+        console.log(`A subtração de ${n1} - ${n2} é ${subtracao(n1,n2)}`);
+
+    } else if (operacao === 3) {
+        console.log("Operação escolhida: MULTIPLICAÇÃO")
+        let n1 = Number(input.question('Digite o primeiro numero: '));
+        let n2 = Number(input.question('Digite o segundo numero: '));
+        console.log(`A multiplicação de ${n1} * ${n2} é ${multiplicacao(n1,n2)}`);
+    } else if (operacao === 4) {
+        console.log("Operação escolhida: DIVISÃO")
+        let n1 = Number(input.question('Digite o primeiro numero: '));
+        let n2 = Number(input.question('Digite o segundo numero: '));
+        console.log(`A divisão de ${n1} / ${n2} é ${divisao(n1,n2)}`);
+    } 
+    else if (operacao === 0) {
+        console.log("Calculadora encerrada!")
+    }
+    else {
+        console.log("Essa operação não existe!")
+    }
+
+ 
