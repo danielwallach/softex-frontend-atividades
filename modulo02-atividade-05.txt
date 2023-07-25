@@ -1,0 +1,6 @@
+
+console.log("Iniciando contagem regressiva...");
+for (let relogioBomba = 10; relogioBomba >= 0; relogioBomba--) {
+    console.log(`...${relogioBomba}`);
+} 
+console.log("BUM!");
