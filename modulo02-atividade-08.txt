@@ -1,0 +1,20 @@
+const input = require('readline-sync');
+
+let nome;
+let anoNascimento;
+const anoAtual = 2023;
+let idade;
+
+try {
+    nome = input.question("Digite o seu nome: ");
+    anoNascimento = Number(input.question("Digite o ano que vc nasceu: "));
+} catch (error) {
+    console.error("Ocorreu um erro: ", error.message);
+}
+
+if (anoNascimento < 1922 || anoNascimento > 2023) {
+    throw new Error("Ano digitado inválido.");
+}
+
+idade = anoAtual - anoNascimento;
+console.log("Você fez ou vai fazer " + idade + " anos.");
