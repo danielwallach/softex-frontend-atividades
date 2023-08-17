@@ -1,0 +1,16 @@
+let nomes = ["Daniel", "Aylin", "Otto", "Memel", "Daví", "Vini", "Matheus", "Mariah", "Guga", "Bento"];
+let idades = [37, 29, 5, 4, 4, 16, 4, 4, 8, 4];
+let coresFavoritas = ["azul", "amarelo", "verde", "rosa", "branco", "preto", "laranja", "roxo", "marron", "branco"];
+
+console.log("ANTES");
+console.log(nomes);
+console.log(idades);
+console.log(coresFavoritas);
+
+idades.splice(0,1,30);
+coresFavoritas.splice(0,1,"lilás");
+
+console.log("DEPOIS");
+console.log(nomes);
+console.log(idades);
+console.log(coresFavoritas);
