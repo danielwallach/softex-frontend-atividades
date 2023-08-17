@@ -1,0 +1,64 @@
+const input = require('readline-sync');
+
+
+const candidato_X = 1;
+const candidato_Y = 2;
+const candidato_Z = 3;
+let votosX = 0;
+let votosY = 0;
+let votosZ = 0;
+let branco = 0;
+let voto;
+let finalizar = "n";
+
+do  {
+    
+  voto = voto = input.question("Digite o numero do seu candidato: ");
+    
+    if (Number(voto) == NaN) {
+        console.log("Digite um número válido");
+    }
+    if (voto == 1) {
+    votosX++;
+    console.log("Você votou no candidato de número " +voto);
+    finalizar = input.question("Deseja finalizar? S/N ");
+        if (finalizar === "s" || finalizar === "S") {
+            console.log("Resultado da votação: \n Candidato X: " +votosX+ " votos. \n Candidato Y: " +votosY+ " votos. \n Candidato Y: " +votosY+ " votos. \n Brancos ou nulos: " +branco+ " votos");
+            break;
+        } else {
+            continue;
+        }
+  } else if (voto == 2) {
+    votosY++;
+    console.log("Você votou no candidato de número " +voto);
+    finalizar = input.question("Deseja finalizar? S/N ");
+        if (finalizar === "s" || finalizar === "S") {
+            console.log("Resultado da votação: \n Candidato X: " +votosX+ " votos. \n Candidato Y: " +votosY+ " votos. \n Candidato Y: " +votosY+ " votos. \n Brancos ou nulos: " +branco+ " votos");
+            break;
+        } else {
+            continue;
+        }
+  } else if (voto == 3) {
+    votosZ++;
+    console.log("Você votou no candidato de número " +voto);
+    finalizar = input.question("Deseja finalizar? S/N ");
+        if (finalizar === "s" || finalizar === "S") {
+            console.log("Resultado da votação: \n Candidato X: " +votosX+ " votos. \n Candidato Y: " +votosY+ " votos. \n Candidato Y: " +votosY+ " votos. \n Brancos ou nulos: " +branco+ " votos");
+            break;
+        } else {
+            continue;
+        }
+  }  else if (voto != 1 && voto != 2 && voto != 3 && Number(voto) !== NaN)  {
+    branco++;
+    console.log(voto+ " é do tipo " +typeof(voto)+ " e aqui só entra números")
+    console.log("Você votou nulo ou em branco");
+    finalizar = input.question("Deseja finalizar? S/N ");
+        if (finalizar === "s" || finalizar === "S") {
+            console.log("Resultado da votação: \n Candidato X: " +votosX+ " votos. \n Candidato Y: " +votosY+ " votos. \n Candidato Y: " +votosY+ " votos. \n Brancos ou nulos: " +branco+ " votos");
+            break;
+        }
+  }  else {
+    console.log("Você não digitou um número, tente novamente");
+  }
+  
+} while(true);
