@@ -1,0 +1,7 @@
+let animais = [
+    ["leão", "felino", 8],
+    ["jacaré", "réptil", 5],
+    ["elefante", "mamífero", 10],
+    ["tubarão", "peixe", 3]
+]
+
