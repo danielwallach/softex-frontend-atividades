@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Módulo 01 - Atividade 01</title>
+</head>
+<body>
+
+    <header>Isso aqui é um texto marcado como Header da página</header>
+    <main>
+        <h1>Isso aqui é o título principal</h1>
+        <p>Dentro da tag main, indicando o conteúdo central da página</p>
+        <figure>
+            <img style="width: 50%;" src="https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg" alt="Pessoas assistindo um show de música ao vivo">
+            <figcaption>Pessoas assistindo um show de música ao vivo</figcaption>
+        </figure>
+        <figure>
+            <img style="width: 50%;" src="https://cdn.pixabay.com/photo/2015/09/13/01/39/elvis-937614_1280.jpg" alt="Elvis Presley dançando">
+            <figcaption>Elvis Presley dançando</figcaption>
+        </figure>
+        <form action="">
+            <label for="dataHora">Data e Hora:</label>
+            <input type="date" id="dataHora">
+            <label for="cor">Cor:</label>
+            <input type="color" id="cor">
+        </form>
+
+    </main>
+    
+</body>
+</html>
