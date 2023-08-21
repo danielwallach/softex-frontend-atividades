@@ -7,9 +7,11 @@
 </head>
 <body>
 
-    <header>Isso aqui é um texto marcado como Header da página</header>
-    <main>
+    <header>
+        Isso aqui é um texto marcado como Header da página
         <h1>Isso aqui é o título principal</h1>
+    </header>
+    <main>
         <p>Dentro da tag main, indicando o conteúdo central da página</p>
         <figure>
             <img style="width: 50%;" src="https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg" alt="Pessoas assistindo um show de música ao vivo">
