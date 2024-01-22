@@ -1,0 +1,6 @@
+const pessoa = {
+    nome: 'Daniel',         // Tipo String
+    salario: 10000,         // Tipo Number         
+    idade: 37,              // Tipo Number
+    possuiDiploma: true     // Tipo Boolean
+}
