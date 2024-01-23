@@ -1,0 +1,27 @@
+const Banco = {
+    conta: '123456',
+    saldo: 10000,
+    tipo: 'corrente',
+    agencia: '789',
+
+    buscarSaldo() {
+        console.log('Seu saldo é R$' + Banco.saldo);
+    },
+    deposito(valor) {
+        Banco.saldo += valor;
+        console.log('Depósito efetuado, seu saldo é R$' + Banco.saldo);
+        return Banco.saldo;
+    },
+    saque(valor) {
+        Banco.saldo -= valor;
+        console.log('Saque efetuado, seu saldo é R$' + Banco.saldo);
+    },
+    numeroConta() {
+        console.log('O número da su conta é ' + Banco.conta);
+    }
+}
+
+Banco.buscarSaldo();
+Banco.deposito(500);
+Banco.saque(800);
+Banco.numeroConta();
