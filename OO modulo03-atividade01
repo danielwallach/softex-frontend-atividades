@@ -1,0 +1,13 @@
+function simples() {
+    console.log('eu sou uma função simples sem parâmetros')
+}
+
+function soma(num1,num2) {
+    return num1 + num2;
+}
+
+const subtracao = (num1,num2) => num1 - num2;
+
+simples();
+console.log(soma(70,20));
+console.log(subtracao(120,30));
