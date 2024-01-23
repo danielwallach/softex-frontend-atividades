@@ -1,0 +1,14 @@
+const input = require('readline-sync');
+
+let media1;
+let media2;
+let media3;
+let mediaTotal;
+
+media1 = parseFloat(input.question("Digite a primeira nota: "));
+media2 = parseFloat(input.question("Digite a segunda nota: "));
+media3 = parseFloat(input.question("Digite a terceira nota: "));
+
+
+mediaTotal = (media1 + media2 + media3)/3;
+console.log('Sua média é: ' + mediaTotal);
