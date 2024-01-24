@@ -1,0 +1,55 @@
+class Carro {
+    modelo;
+    cor;
+    ano;
+
+    acelerar() {
+        console.log('Acelerando...');
+    }
+    
+    frear() {
+        console.log('Freando...');
+    }
+    
+    buzinar() {
+        console.log('Bit Bit!');
+    }
+}
+
+class contaCorrente {
+    numero;
+    titular;
+    saldo;
+
+    mostrarSaldo() {
+        console.log(this.saldo);
+    }
+
+    depositar(valor) {
+        this.saldo += valor;
+        console.log('Novo saldo: R$' +this.saldo);
+    }
+    
+    sacar(valor) {
+        this.saldo -= valor;
+        console.log('Novo saldo: R$' +this.saldo);
+    }
+}
+
+let carro1 = new Carro();
+carro1.ano = 2020;
+carro1.modelo = 'Gol';
+carro1.cor = 'Preto';
+
+carro1.acelerar();
+carro1.frear();
+carro1.buzinar();
+
+let conta1 = new contaCorrente();
+conta1.numero = '123456';
+conta1.saldo = 1000;
+conta1.titular = 'Daniel Wallach';
+
+conta1.mostrarSaldo();
+conta1.depositar(250);
+conta1.sacar(500);
